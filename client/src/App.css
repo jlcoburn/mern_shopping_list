@@ -23,3 +23,7 @@
 .strike_through {
   text-decoration: line-through;
 }
+
+#list_item {
+  font-size: 1.2em;
+}
