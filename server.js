@@ -17,6 +17,7 @@ mongoose.connect(db, { useNewUrlParser: true, useUnifiedTopology: true } )
 
 app.use('/api/items', items)
 
+
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static('client/build'))
 
